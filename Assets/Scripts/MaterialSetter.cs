@@ -8,9 +8,9 @@ using System;
 public class MaterialSetter : MonoBehaviour
 {
 
-    private MeshRenderer _meshRenderer;
+    [SerializeField] private MeshRenderer _meshRenderer;
 
-    private MeshRenderer meshRenderer
+    public MeshRenderer meshRenderer
     {
         get
         {
